@@ -59,9 +59,10 @@
 #     run_pipe()
 
 
-from dask import delayed
-import dask
 import time
+
+import dask
+from dask import delayed
 from dask.distributed import Client, LocalCluster
 
 
